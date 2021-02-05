@@ -1,0 +1,40 @@
+@import "variables"; /* Imports all the variables in variables.css */
+
+*, *::before, *::after
+{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 100%; /* The user's browser's default font-size */
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.website-nav
+{
+    display: var(--flex-display);
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+}
+
+.company-title
+{
+
+}
+
+.header-links
+{
+
+}
+
+.footer-links
+{
+
+}
