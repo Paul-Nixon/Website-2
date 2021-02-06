@@ -18,10 +18,15 @@ body
     font-size: 1.125rem; /* Equivalent to 18px */
 }
 
+a
+{
+    text-decoration: none;
+}
+
 /* Header & Its Contents */
 .main-header
 {
-
+    
 }
 
 .header-nav
@@ -29,6 +34,7 @@ body
     display: var(--flex-display);
     justify-content: var(--flex-jc-sb);
     align-items: var(--flex-ai-c);
+    padding: 10px;
 }
 
 .company-title
