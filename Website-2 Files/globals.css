@@ -34,17 +34,47 @@ a
     display: var(--flex-display);
     justify-content: var(--flex-jc-sb);
     align-items: var(--flex-ai-c);
-    padding: 10px;
+    padding: 20px;
 }
 
 .company-title
 {
-
+    background:linear-gradient(to right, black, gold);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.5625rem; /* Equivalent to 25px */
 }
 
 .header-links
 {
+    display: var(--flex-display);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+.header-links li
+{
+    padding: 10px;
+}
+
+.register-and-shop-links
+{
+    display: var(--flex-display);
+    align-items: var(--flex-ai-c);
+}
+
+.register-link
+{
+    padding-right: 35px;
+}
+.shopping-cart-icon-wrapper
+{
+    display: var(--flex-display);
+    flex-direction: column;
+    align-items: var(--flex-ai-c);
 }
 
 /* Footer & Its Contents */
