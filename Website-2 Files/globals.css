@@ -39,7 +39,7 @@ a
 
 .company-title
 {
-    background:linear-gradient(to right, black, gold);
+    background: linear-gradient(to right, black, gold);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -60,6 +60,20 @@ a
     padding: 10px;
 }
 
+.header-links li a
+{
+    color: grey;
+    font-size: 20px;
+    transition: color 400ms ease-in-out;
+}
+
+.header-links li a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+
 .register-and-shop-links
 {
     display: var(--flex-display);
@@ -68,13 +82,30 @@ a
 
 .register-link
 {
-    padding-right: 35px;
+    margin-right: 1.25rem; /* Equivalent to 20px */
+    padding: 1rem 1.875rem; /* 16px long, 30px wide */
+    border: 0;
+    background: linear-gradient(to right, black, gold);
+    border-radius: 999px; /* Setting an element's border-radius to greater than half its height creates a pill-shaped border */
+    color: white;
 }
+
 .shopping-cart-icon-wrapper
 {
     display: var(--flex-display);
     flex-direction: column;
     align-items: var(--flex-ai-c);
+    padding-left: 5px;
+}
+
+.shopping-cart-icon, .shopping-cart-icon-label
+{
+    color: black;
+}
+
+.shopping-cart-icon-label
+{
+    font-size: 20px;
 }
 
 /* Footer & Its Contents */

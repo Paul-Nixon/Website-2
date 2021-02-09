@@ -1,4 +1,34 @@
 .home-main-section
 {
-    
+    display: var(--flex-display);
+    flex-direction: column;
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+}
+
+.cta-with-img-section
+{
+    display: var(--flex-display);
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+}
+
+
+.title-wrapper
+{
+    display: var(--flex-display);
+    flex-direction: column;
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+}
+
+.title
+{
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+.subtitle
+{
+    color: grey;
 }
