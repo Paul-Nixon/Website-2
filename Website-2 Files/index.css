@@ -11,10 +11,52 @@
     display: var(--flex-display);
     justify-content: var(--flex-jc-sb);
     align-items: var(--flex-ai-c);
+    flex-grow: 1;
 }
 
 
-.title-wrapper
+.cta-wrapper
+{
+    display: var(--flex-display);
+    flex-direction: column;
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+    align-self: flex-end;
+}
+
+.title
+{
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.subtitle
+{
+    color: grey;
+}
+
+.img-wrapper
+{
+    display: var(--flex-display);
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+
+.royal-miriam-cape-dress-img
+{
+    background-image: url("Images/royal_miriam_cape_dress.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-grow: 1;
+    max-height: 60vh;
+    min-width: 30vw;
+}
+
+.why-shop-here-section
 {
     display: var(--flex-display);
     flex-direction: column;
@@ -22,13 +64,24 @@
     align-items: var(--flex-ai-c);
 }
 
-.title
+.card-wrapper
 {
-    font-size: 1.3em;
-    margin-bottom: 0;
+    display: var(--flex-display);
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
 }
 
-.subtitle
+.card-1
 {
-    color: grey;
+
+}
+
+.card-2
+{
+
+}
+
+.card-3
+{
+
 }
