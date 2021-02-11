@@ -1,32 +1,32 @@
-.home-main-section
+.hero-section
 {
     display: var(--flex-display);
-    flex-direction: column;
-    justify-content: var(--flex-jc-sb);
     align-items: var(--flex-ai-c);
 }
 
-.cta-with-img-section
+.container
 {
     display: var(--flex-display);
     justify-content: var(--flex-jc-sb);
     align-items: var(--flex-ai-c);
     flex-grow: 1;
+    height: 350px;
+    margin: 0 auto;
+    padding: 2.25rem 1.5rem;
 }
 
-
-.cta-wrapper
+.cta-wrapper, .title-wrapper
 {
     display: var(--flex-display);
     flex-direction: column;
     justify-content: var(--flex-jc-sb);
     align-items: var(--flex-ai-c);
-    align-self: flex-end;
+    text-align: center;
 }
 
 .title
 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -34,6 +34,8 @@
 .subtitle
 {
     color: grey;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
 }
 
 .img-wrapper
@@ -41,47 +43,29 @@
     display: var(--flex-display);
     flex-direction: column;
     flex-grow: 1;
-    justify-content: flex-start;
-    align-content: stretch;
 }
 
 
 .royal-miriam-cape-dress-img
 {
+    position: relative;
+    width: 215px;
+    height: 215px;
     background-image: url("Images/royal_miriam_cape_dress.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     flex-grow: 1;
-    max-height: 60vh;
-    min-width: 30vw;
+    background-position: center bottom;
+    align-self: flex-end;
 }
 
 .why-shop-here-section
 {
     display: var(--flex-display);
-    flex-direction: column;
-    justify-content: var(--flex-jc-sb);
     align-items: var(--flex-ai-c);
 }
 
 .card-wrapper
 {
-    display: var(--flex-display);
-    justify-content: var(--flex-jc-sb);
-    align-items: var(--flex-ai-c);
-}
-
-.card-1
-{
-
-}
-
-.card-2
-{
-
-}
-
-.card-3
-{
-
+    
 }
