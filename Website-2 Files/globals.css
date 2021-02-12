@@ -26,7 +26,7 @@ a
 /* Header & Its Contents */
 .main-header
 {
-    
+    background-color: lightskyblue;
 }
 
 .header-nav
@@ -112,9 +112,10 @@ a
 .main-footer
 {
     margin-top: auto; /* Pushes it to the bottom of the screen */
+    background-color: lightsteelblue;
 }
 
 .footer-nav
 {
-
+    
 }
