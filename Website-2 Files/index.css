@@ -1,3 +1,5 @@
+@import "variables.css"; /* Imports all the variables in variables.css */
+
 .hero-section
 {
     display: var(--flex-display);

@@ -29,7 +29,7 @@ a
     background-color: lightskyblue;
 }
 
-.header-nav
+.header-nav, .footer-nav
 {
     display: var(--flex-display);
     justify-content: var(--flex-jc-sb);
@@ -47,7 +47,7 @@ a
     font-size: 1.5625rem; /* Equivalent to 25px */
 }
 
-.header-links
+.header-links, .footer-links, .social-links
 {
     display: var(--flex-display);
     margin: 0;
@@ -55,7 +55,7 @@ a
     list-style: none;
 }
 
-.header-links li
+.header-links li, .footer-links li, .social-links li
 {
     padding: 10px;
 }
@@ -115,7 +115,12 @@ a
     background-color: lightsteelblue;
 }
 
-.footer-nav
+.footer-links li a, .fa-twitter, .fa-linkedin, .fa-instagram
 {
-    
+    color: black;
+}
+
+.fa
+{
+    font-size: 1.25rem;
 }
