@@ -1,0 +1,59 @@
+@import "variables.css"; /* Imports all the variables in variables.css */
+
+.about-main-section
+{
+    display: var(--flex-display);
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+    flex-direction: column;
+}
+
+.container
+{
+    display: var(--flex-display);
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 auto;
+    padding: 2.25rem 1.5rem;
+}
+
+.webpage-title
+{
+
+}
+
+
+.sub-section
+{
+    display: var(--flex-display);
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+}
+
+.title-wrapper
+{
+    display: var(--flex-display);
+    flex-direction: column;
+    justify-content: var(--flex-jc-sb);
+    align-items: var(--flex-ai-c);
+    text-align: center;
+}
+
+.title
+{
+
+}
+
+.subtitle
+{
+
+}
+
+.img-wrapper
+{
+    display: var(--flex-display);
+    flex-direction: column;
+    flex-grow: 1;
+}
