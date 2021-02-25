@@ -22,7 +22,6 @@
 .webpage-title
 {
     font-size: 2.5em;
-
 }
 
 
@@ -33,65 +32,16 @@
     align-items: var(--flex-ai-c);
 }
 
-.title-wrapper
-{
-    display: var(--flex-display);
-    flex-direction: column;
-    justify-content: var(--flex-jc-sb);
-    align-items: var(--flex-ai-c);
-    text-align: center;
-    align-self: flex-end;
-}
-
 .title
 {
     font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .subtitle
 {
     margin-top: 0;
-}
-
-.img-wrapper
-{
-    display: var(--flex-display);
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.stairway-to-heaven-img
-{
-    width: 200px;
-    height: 200px;
-    background-image: url("Images/stairway_to_heaven.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-grow: 1;
-    align-self: flex-end;
-}
-
-.rags-to-riches-img
-{
-    background-image: url("Images/rags_to_riches.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-grow: 1;
-    align-self: flex-start;
-}
-
-.company-stock-rising-img
-{
-    background-image: url("Images/company_stock_rising.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-grow: 1;
-    align-self: flex-end;
-}
-
-.achievements-list
-{
-    
+    text-align: center;
 }

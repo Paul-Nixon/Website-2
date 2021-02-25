@@ -46,6 +46,10 @@ a
     font-weight: bold;
     font-size: 1.5625rem; /* Equivalent to 25px */
 }
+.header-menu > span
+{
+    display: block;
+}
 
 .header-links, .footer-links, .social-links
 {
@@ -123,4 +127,17 @@ a
 .fa
 {
     font-size: 1.25rem;
+}
+
+@media (max-width: 530px)
+{
+    .shopping-cart-icon-wrapper
+    {
+        display: none;
+    }
+
+    .footer-nav
+    {
+        flex-direction: column;
+    }
 }
