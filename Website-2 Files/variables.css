@@ -1,7 +1,0 @@
-:root
-{
-    --flex-display: flex; /* display: flex */
-    --flex-jc-sb: space-between; /* justify-content: space-between */
-    --flex-jc-c: center; /* justify-content: center */
-    --flex-ai-c: center; /* align-items: center */
-}
